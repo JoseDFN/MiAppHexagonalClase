@@ -1,0 +1,14 @@
+E:\projectsNet\MiAppHexagonal\bin\Debug\net8.0\MiAppHexagonal.exe
+E:\projectsNet\MiAppHexagonal\bin\Debug\net8.0\MiAppHexagonal.deps.json
+E:\projectsNet\MiAppHexagonal\bin\Debug\net8.0\MiAppHexagonal.runtimeconfig.json
+E:\projectsNet\MiAppHexagonal\bin\Debug\net8.0\MiAppHexagonal.dll
+E:\projectsNet\MiAppHexagonal\bin\Debug\net8.0\MiAppHexagonal.pdb
+E:\projectsNet\MiAppHexagonal\obj\Debug\net8.0\MiAppHexagonal.GeneratedMSBuildEditorConfig.editorconfig
+E:\projectsNet\MiAppHexagonal\obj\Debug\net8.0\MiAppHexagonal.AssemblyInfoInputs.cache
+E:\projectsNet\MiAppHexagonal\obj\Debug\net8.0\MiAppHexagonal.AssemblyInfo.cs
+E:\projectsNet\MiAppHexagonal\obj\Debug\net8.0\MiAppHexagonal.csproj.CoreCompileInputs.cache
+E:\projectsNet\MiAppHexagonal\obj\Debug\net8.0\MiAppHexagonal.dll
+E:\projectsNet\MiAppHexagonal\obj\Debug\net8.0\refint\MiAppHexagonal.dll
+E:\projectsNet\MiAppHexagonal\obj\Debug\net8.0\MiAppHexagonal.pdb
+E:\projectsNet\MiAppHexagonal\obj\Debug\net8.0\MiAppHexagonal.genruntimeconfig.cache
+E:\projectsNet\MiAppHexagonal\obj\Debug\net8.0\ref\MiAppHexagonal.dll
