@@ -1,4 +1,6 @@
 ﻿using MiAppHexagonal.Application.Services;
+using MiAppHexagonal.Application.UI.Clientes;
+using MiAppHexagonal.Domain.Entities;
 using MiAppHexagonal.Domain.Factory;
 using MiAppHexagonal.Infrastructure.Mysql;
 
@@ -6,9 +8,10 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        string connStr = "server=localhost;database=mi_base;user=mi_usuario;password=mi_contraseña;";
+        string connStr = "server=localhost;database=introcsharp;user=root;password=123456;";
         IDbFactory factory = new MySqlDbFactory(connStr);
         var servicio = new ClienteService(factory.CrearClienteRepository());
+        var servicioProducto = new ProductoService(factory.CrearProductoRepository());
                 while (true)
         {
             Console.WriteLine("\n--- MENÚ CLIENTES ---");
@@ -23,10 +26,17 @@ internal class Program
             {
                 case "1":
                     servicio.MostrarTodos();
+                    UICliente Uc = new UICliente(factory);
+                    
                     break;
                 case "2":
+                    Producto producto = new Producto();
                     Console.Write("Nombre: ");
-                    servicio.CrearCliente(Console.ReadLine()!);
+                    producto.Nombre = Console.ReadLine();
+                    Console.WriteLine("Stock: ");
+                    producto.Stock = int.Parse(Console.ReadLine());
+                    servicioProducto.CrearProducto(producto);
+                    //servicio.CrearCliente(Console.ReadLine()!);
                     break;
                 case "3":
                     Console.Write("ID a actualizar: ");

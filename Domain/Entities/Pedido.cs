@@ -12,5 +12,5 @@ public class Pedido
         Un cliente tiene múltiples pedidos. Si el cliente se elimina, los pedidos podrían 
         seguir existiendo si hay lógica para migrarlos o archivarlos.
     */
-    public List<DetallePedido> Detalles { get; set; } = new();
+    public List<DetallePedido>? Detalles { get; set; }
 }
