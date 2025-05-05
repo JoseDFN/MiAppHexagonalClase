@@ -2,6 +2,8 @@ using System;
 using MiAppHexagonal.Domain.Factory;
 using MiAppHexagonal.Domain.Ports;
 using MiAppHexagonal.Infrastructure.Repositories;
+using MiAppHexagonalClase.Domain.Ports;
+using MiAppHexagonalClase.Infrastructure.Repositories;
 
 namespace MiAppHexagonal.Infrastructure.Mysql;
 
@@ -21,6 +23,10 @@ public class MySqlDbFactory : IDbFactory
 
     public IProductoRepository CrearProductoRepository()
     {
-        return new ProductoRepository(_connectionString);
+        return new ImpProductoRepository(_connectionString);
+    }
+    public IDireccionRepository CrearDireccionRepository()
+    {
+        return new ImpDireccionRepository(_connectionString);
     }
 }

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projectsNet\\MiAppHexagonal\\MiAppHexagonal.csproj": {}
+    "C:\\Users\\josed\\Documents\\Campus\\MiAppHexagonalClase\\MiAppHexagonal.csproj": {}
   },
   "projects": {
-    "E:\\projectsNet\\MiAppHexagonal\\MiAppHexagonal.csproj": {
+    "C:\\Users\\josed\\Documents\\Campus\\MiAppHexagonalClase\\MiAppHexagonal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projectsNet\\MiAppHexagonal\\MiAppHexagonal.csproj",
+        "projectUniqueName": "C:\\Users\\josed\\Documents\\Campus\\MiAppHexagonalClase\\MiAppHexagonal.csproj",
         "projectName": "MiAppHexagonal",
-        "projectPath": "E:\\projectsNet\\MiAppHexagonal\\MiAppHexagonal.csproj",
-        "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
-        "outputPath": "E:\\projectsNet\\MiAppHexagonal\\obj\\",
+        "projectPath": "C:\\Users\\josed\\Documents\\Campus\\MiAppHexagonalClase\\MiAppHexagonal.csproj",
+        "packagesPath": "C:\\Users\\josed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josed\\Documents\\Campus\\MiAppHexagonalClase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\josed\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

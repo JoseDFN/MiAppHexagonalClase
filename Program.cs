@@ -8,7 +8,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        string connStr = "server=localhost;database=introcsharp;user=root;password=123456;";
+        string connStr = "server=localhost;database=introcsharp;user=campus2023;password=campus2023;";
         IDbFactory factory = new MySqlDbFactory(connStr);
         var servicio = new ClienteService(factory.CrearClienteRepository());
         var servicioProducto = new ProductoService(factory.CrearProductoRepository());

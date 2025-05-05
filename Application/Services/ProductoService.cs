@@ -16,9 +16,25 @@ namespace MiAppHexagonal.Application.Services
         {
             _repo = repo;
         }
+        public void MostrarTodos()
+        {
+            var lista = _repo.ObtenerTodos();
+            foreach (var p in lista)
+            {
+                Console.WriteLine($"ID: {p.Id}, Nombre producto: {p.Nombre}, Stock: {p.Stock}");
+            }
+        }
         public void CrearProducto(Producto producto)
         {
             _repo.Crear(producto);
+        }
+        public void ActualizarProducto(int id, string nuevoNombre, int Nstock)
+        {
+            _repo.Actualizar(new Producto { Id = id, Nombre = nuevoNombre, Stock = Nstock });
+        }
+        public void EliminarProducto(int id)
+        {
+            _repo.Eliminar(id);
         }
     }
 }
